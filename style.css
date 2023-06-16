@@ -1,10 +1,20 @@
 /* Write your CSS here! */
 
-/* Do not change the CSS below. */
+
+.primary-content{
+display: grid;
+grid-template-columns: 20% 80%;
+}
 
 .header {
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
   background: #4242ea;
 }
+
+
+/* Do not change the CSS below. */
+
 
 .logo img {
   height: 50px;
@@ -14,11 +24,13 @@
 
 .menu ul {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  
 }
 
 .menu a {
